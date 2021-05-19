@@ -65,8 +65,8 @@
     <MASM Include="lconstbzx.asm" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\vmptest\vmptest.vcxproj">
-      <Project>{f98aafdc-aa2d-4ac2-924a-9bc9895e34d5}</Project>
+    <ProjectReference Include="..\..\dependencies\vmtracer\src\vmtracer.vcxproj">
+      <Project>{d257c9f6-c705-49d5-84ed-64c9c513c419}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
