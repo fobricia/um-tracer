@@ -1,0 +1,3 @@
+[submodule "dependencies/vmtracer"]
+	path = dependencies/vmtracer
+	url = https://githacks.org/vmp2/vmtracer.git
