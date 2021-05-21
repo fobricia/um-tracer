@@ -17,5 +17,5 @@ First download the repo with `git clone --recursive https://githacks.org/vmp2/um
 To create a trace file simply run the following:
 
 ```
-
+um-tracer.exe --bin vmptest.vmp.exe --table 0x6473 --base 0x140000000 --out test.vmp2
 ```
