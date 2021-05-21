@@ -9,3 +9,13 @@ um-trace is a demo project/repo which contains an example of how to create a run
 * src/ - source code for the usermode tracer. 
     * vmptest/ - source code for the the test bins
     * um-tracer/ - source code for usermode tracer, includes a hook on `LCONSTBZX`.
+
+### Usage
+
+First download the repo with `git clone --recursive https://githacks.org/vmp2/um-tracer.git`, then compile the `um-tracer` by opening `demo.sln` inside of `src/`. There should be an executable called `um-tracer.exe` in `x64/Release`. This tracer program is compiled for the first `vmptest` binary in the `refbuilds` directly.
+
+To create a trace file simply run the following:
+
+```
+
+```
