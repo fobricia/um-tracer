@@ -1,3 +1,9 @@
+<div align="center">
+    <div>
+        <img src="https://githacks.org/uploads/-/system/project/avatar/374/icon-5.png"/>
+    </div>
+</div>
+
 # um-tracer - Usermode Virtual Instruction Tracer Demo
 
 um-trace is a demo project/repo which contains an example of how to create a runtime trace of a VMProtect'ed binary (VMProtect 2). The binaries in this repo are not packed for simplicity sake, however in later demo's I will be applying packing to the executable. 
